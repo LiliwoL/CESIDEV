@@ -1,7 +1,0 @@
-# Fichier a placer dans /etc/hosts en local ET sur le serveur
-192.168.59.104	www.cesi.fr
-192.168.59.104	damien.cesi.fr
-192.168.59.104	www.clement.cesi.fr
-192.168.59.104	www.even.fr
-
-
