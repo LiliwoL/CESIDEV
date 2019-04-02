@@ -1,0 +1,18 @@
+# Fichier .htaccess a placer dans le repertoire que l'on veut proteger
+
+# Type d'authentification
+AuthType Basic
+
+# Intitule de l'authentification
+AuthName "Espace sécurisé"
+
+# On crée le fichier utilisateurs avec la commande htpasswd
+# htpasswd -c .htpasswd nom_utilisateur
+
+# Fichier contenant l'annuaire des utilisateurs
+# On ne place pas ce fichier dans le DocumentRoot !!
+AuthUserFile "/var/www/.htpasswd"
+
+
+# On demande un utilisateur valide (donc existant)
+require valid-user
