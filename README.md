@@ -1,6 +1,6 @@
-# Apache et les h�tes virtuels
+# Apache et les hôtes virtuels
 
-## R�solution de noms
+## Résolution de noms
 
 Dans un premier temps, modifier les fichiers **hosts** du client ET du serveur pour assurer une bonne résolution des noms.
 
@@ -8,7 +8,7 @@ Dans un premier temps, modifier les fichiers **hosts** du client ET du serveur p
 
 ## Création des fichiers de configuration des VirtualHosts
 
-Déposer les fichiers de configuration dans **/etc/apache2/sites-available**
+DÃ©poser les fichiers de configuration dans **/etc/apache2/sites-available**
 
 ## Activation des VirtualHosts
 
